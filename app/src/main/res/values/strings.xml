@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tarea2</string>
+    <string name="nombre">Nombres Completos:</string>
+    <string name="fecha">Fecha de Nacimiento:</string>
+    <string name="telefono">Telefono:</string>
+    <string name="email">Email:</string>
+    <string name="descripcion">Descripción Contacto:</string>
+    <string name="boton_siguiente">Siguiente</string>
+    <string name="boton_editar">Editar Datos</string>
+</resources>
