@@ -4,4 +4,6 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="top">20dp</dimen>
     <dimen name="tamaño_texto">20dp</dimen>
+    <dimen name="elevacionAppBar">4dp</dimen>
+
 </resources>

@@ -7,4 +7,9 @@
     <string name="descripcion">Descripción Contacto:</string>
     <string name="boton_siguiente">Siguiente</string>
     <string name="boton_editar">Editar Datos</string>
+    <string name="pnombre">nombre</string>
+    <string name="pfecha">fecha</string>
+    <string name="ptelefono">telefono</string>
+    <string name="pemail">email</string>
+    <string name="pdescripcion">descripcion</string>
 </resources>

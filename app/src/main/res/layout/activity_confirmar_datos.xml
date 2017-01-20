@@ -14,58 +14,145 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:weightSum="1"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
         <TextView
-            android:id="@+id/txtNombre"
+            android:id="@+id/txt1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/nombre"
             android:textStyle="normal|bold"
-            android:textSize="@dimen/tamaño_texto" />
+
+            />
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal|bold"
+
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        >
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fecha"
+            android:textStyle="normal|bold" />
 
         <TextView
             android:id="@+id/txtFechaNacimiento"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fecha"
             android:textStyle="normal|bold"
-            android:textSize="@dimen/tamaño_texto"/>
 
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono"
+            android:textStyle="normal|bold"
+
+
+            />
 
         <TextView
             android:id="@+id/txtTelefono"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/telefono"
-            android:layout_marginTop="@dimen/top"
             android:textStyle="normal|bold"
-            android:textSize="@dimen/tamaño_texto"/>
+                    />
+    </LinearLayout>
 
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
         <TextView
-            android:id="@+id/txtEmail"
+            android:id="@+id/txt4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/email"
-            android:layout_marginTop="@dimen/top"
             android:textStyle="normal|bold"
-            android:textSize="@dimen/tamaño_texto"/>
+
+
+            />
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+
+
+                />
+        </LinearLayout>
+
+
+    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion"
+            android:textStyle="normal|bold"
+           />
 
 
         <TextView
             android:id="@+id/txtDescripcion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/descripcion"
-            android:layout_marginTop="@dimen/top"
             android:textStyle="normal|bold"
-            android:textSize="@dimen/tamaño_texto"/>
+
+            />
+
+            />
 
     </LinearLayout>
+
 
     <Button
         android:text="@string/boton_editar"
@@ -73,6 +160,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnEditar"
         android:theme="@style/Botones"
+        android:onClick="confirmar"
+
         />
 
 
