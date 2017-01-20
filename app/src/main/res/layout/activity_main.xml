@@ -11,9 +11,9 @@
     android:orientation="vertical"
        tools:context="com.example.chaby.tarea2.MainActivity">
 
-    <include android:id="@+id/miActionBar"
-        layout="@layout/actionbar"
-        ></include>
+    <!--  <include android:id="@+id/miActionBar"
+         layout="@layout/actionbar"
+         ></include> -->
 
 
 <LinearLayout
